@@ -6,6 +6,7 @@
 <title>User Home Page</title>
 </head>
 <body>
-<h3>Ciao ${userName}</h3>
+<h3>Ciao ${userBean.userName}</h3>
+<h4>Ciao ${userBean.nickname}</h4>
 </body>
 </html>

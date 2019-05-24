@@ -33,8 +33,12 @@ public class HomeController {
 
 	@RequestMapping(value = "/user", method = RequestMethod.POST)
 	public String user(@Validated User user, Model model) {
-		System.out.println("User Page Requested");
-		model.addAttribute("userName", user.getUserName());
+		System.out.println("UserName : " + user.getUserName());
+		System.out.println("nickname : " + user.getNickname());
+		
+		
+		//model.addAttribute("userName", user.getUserName());
+		model.addAttribute("userBean", user);
 		return "user";
 	}
 }

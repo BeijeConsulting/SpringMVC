@@ -11,6 +11,7 @@
 
 	<form action="user" method="post">
 		<input type="text" name="userName"><br>
+		<input type="text" name="nickname"><br>
 		<input type="submit" value="Login">
 	</form>
 </body>
