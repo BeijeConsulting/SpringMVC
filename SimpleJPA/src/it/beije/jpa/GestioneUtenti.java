@@ -51,9 +51,9 @@ public class GestioneUtenti {
 	public static void main( String[ ] args ) {
 		
 		GestioneUtenti gestioneUtenti = new GestioneUtenti();
-		//gestioneUtenti.creaUtente("Pippo", "Kappa", "pk@bbb3.com", new Date(2000000000000L));
+		gestioneUtenti.creaUtente("Pippo", "Kappa", "pk@bbb4.com", new Date(2000000000000L));
 		
-		gestioneUtenti.trovaUtente(9);
+		//gestioneUtenti.trovaUtente(9);
 		
 	}
 }
